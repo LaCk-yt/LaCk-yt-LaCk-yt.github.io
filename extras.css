@@ -1,0 +1,26 @@
+
+.arr {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.arr div {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    left: 12.5px;
+    top: 17.5px;
+}
+
+
+.downArr {
+    transform: rotate(180deg);
+}
