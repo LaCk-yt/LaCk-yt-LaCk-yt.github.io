@@ -146,6 +146,11 @@ a:hover {
 }
 
 @media screen and (max-width: 850px) {
+    
+    .mobile {
+        overflow-x: hidden;
+    }
+
 
     /* arrow div*/
 
